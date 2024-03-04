@@ -1,0 +1,91 @@
+@media screen and (max-width: 1020px) {
+    /*NAVBAR*/
+    .navbar{
+        background: #021F33;
+    }
+    .logo h1{
+        color: #ffff;
+    }
+   .menu{
+    display: none;
+   }
+   .btn-abrir-menu{
+    display: block;
+   }
+
+   /*main*/
+   .home{
+    height: 100vh;
+    overflow: hidden;
+   }
+   .home{
+    .title h2{
+        font-size: 18px;
+    }
+    .title h3{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .title p{
+        font-size: 10px;
+    }
+
+    img{
+        width: 300px;
+        position: relative;
+    }
+   }
+
+   .services{
+    height: 240vh;
+   }
+
+   .services{
+    h2{
+        font-size: 20px;
+    }
+    .title1{
+        flex-direction: column;
+        left: 40px;
+    }
+   }
+
+   .contato{
+    flex-direction: column;
+   }
+
+   .contato{
+    .title-telefone{
+        flex-direction: column;
+    }
+
+    .form{
+        width: 300px;
+        left: 45px;
+        top: 50px;
+    }
+
+    .radio-flex{
+        flex-direction: column;
+    }
+
+    .radio-button-container{
+        flex-direction: column;
+    }
+
+    .radio-button1{
+        position: relative;
+        right: 62.2px;
+    }
+
+    .radio-button2{
+        position: relative;
+        right: 50px;
+    }
+
+    .radio-button3{
+        position: relative;
+        right: 42px;
+    }
+   }
+}
