@@ -4,14 +4,15 @@ let overlay = document.getElementById('overlay-menu');
 
 btnMenu.addEventListener('click', ()=>{
     menuMobile.classList.add('abrir-menu');
-    overlay.style.display = 'block'; // Mostra o overlay quando o menu é aberto
+    overlay.style.display = 'block';
 })
 
 menuMobile.addEventListener('click', ()=>{
     menuMobile.classList.remove('abrir-menu');
+    overlay.style.display = 'none';
 })
 
 overlay.addEventListener('click', ()=>{
     menuMobile.classList.remove('abrir-menu');
-    overlay.style.display = 'none'; // Esconde o overlay quando clicado
+    overlay.style.display = 'none';
 })
